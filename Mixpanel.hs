@@ -7,6 +7,6 @@ module Mixpanel
 ) where
 
 import Mixpanel.Core
-import Mixpanel.Annotations
+import Mixpanel.Requests
 
 
