@@ -67,6 +67,8 @@ library
                ,       aeson == 0.7.0.6
                ,       aeson-lens == 0.5.0.0
                ,       old-locale == 1.0.0.5
+               ,       bytestring == 0.10.0.2
+               ,       http-client == 0.4.11.3
   
   -- Directories containing source files.
   -- hs-source-dirs:      
