@@ -7,6 +7,7 @@ module Mixpanel.Core
 ) where
 
 import Network.Wreq
+import Data.Aeson.Types
 import Data.Map.Strict as Map
 import Data.Text as Text
 import Data.Time
@@ -39,3 +40,4 @@ mixpanelRequest config args url = do
                     & param "sig" .~ [token]
                     & manager .~ Left (defaultManagerSettings { managerResponseTimeout = Just 3600000000} ) 
   getWith opts url
+

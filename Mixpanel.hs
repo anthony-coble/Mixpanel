@@ -2,11 +2,14 @@
 
 module Mixpanel 
 ( defaultConfig
-, mixpanelRequest
+--, mixpanelRequest
+, export
+, mixpanel
 , MixpanelConfig(..)
 ) where
 
-import Mixpanel.Core
-import Mixpanel.Requests
+-- import Mixpanel.Core
+-- import Mixpanel.Requests
+import Mixpanel.Experiment
 
 
